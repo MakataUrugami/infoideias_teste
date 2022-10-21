@@ -204,7 +204,7 @@ echo nl2br(
         array(80,17,15)
         )) . "\n" .
     # Questao 4:
-    "Sequencia crescente ". ($funcoes->SequenciaCrescente([1, 3, 2, 1]) ? "true" : "false") . "\n" .
+    "Sequencia crescente ". (@$funcoes->SequenciaCrescente([1, 3, 2, 1]) ? "true" : "false") . "\n" .
     "Sequencia crescente ". (@$funcoes->SequenciaCrescente([1, 3, 2]) ? "true" : "false") . "\n" .
     "Sequencia crescente ". (@$funcoes->SequenciaCrescente([1, 2, 1, 2]) ? "true" : "false") . "\n" .
     "Sequencia crescente ". (@$funcoes->SequenciaCrescente([3, 6, 5, 8, 10, 20, 15]) ? "true" : "false") . "\n" .
